@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.Of2T67RleS/PiUART.cpp
+PiUART.h
+/tmp/tmp.Of2T67RleS/PiUART.h
+
+/tmp/tmp.Of2T67RleS/PiUART.h
+pigpio.h
+/tmp/tmp.Of2T67RleS/pigpio.h
+string.h
+/tmp/tmp.Of2T67RleS/string.h
+
+/tmp/tmp.Of2T67RleS/main.cpp
+

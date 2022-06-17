@@ -1,8 +1,14 @@
-# RPI-UART-Demo
-Communicating over the UART with the Raspberry Pi
+# RPI-UART_-Demo
+Communicating over the UART_ with the Raspberry Pi
 ## Getting Started
 
-In this tutorial i will be creating a demo for using the UART on the Raspberry pi 4, i'm going to be using the RPI 4B model, but any model should be fine as well.
+In this tutorial I will be creating a demo for using the UART_ on the Raspberry pi 4, I'm going to be using the RPI 4B model, but any model should be fine as well. </br>
 
-* add a little about the mini UART
-* add steps and explanation to activating the UART on the RPI 
+### Step one - Activating the serial communication
+
+
+
+
+
+* add a little about the mini UART_
+* add steps and explanation to activating the UART_ on the RPI 
