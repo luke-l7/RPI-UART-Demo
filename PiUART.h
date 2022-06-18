@@ -21,9 +21,9 @@ private:
 public:
     explicit PiUART(string UART_string): UART_(std::move(UART_string)), RTS_PIN_(-1), handle_(-1) {};
     PiUART(string UART_string, int RTS_PIN): UART_(std::move(UART_string)),RTS_PIN_(RTS_PIN), handle_(-1){} ;
-    int SerialInit() throw(string);
-    int Write(char *buff,std::uint8_t size);
-    int Read(char *buff, std::uint8_t size);
+    int SerialInit() noexcept;
+    int Write(char *buff,std::uint8_t size) noexcept;
+    int Read(char *buff, std::uint8_t size) noexcept;
 };
 
 
