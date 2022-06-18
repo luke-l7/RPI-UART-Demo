@@ -7,7 +7,7 @@ In this tutorial I will be creating a demo for using the UART_ on the Raspberry 
 ### Step one - Activating the serial communication
 
 1. Open up your PI terminal.
-2. Enter the command *sudo raspi-config*
+2. Enter the command *sudo raspi-config*.
 3. Use your arrow keys to navigate to *Advanced options*, and press enter.
 4. Navigate to the *Serial* option.
 
