@@ -1,4 +1,4 @@
-# RPI-UART_-Demo
+# RPI-UART-Demo
 Communicating over the UART_ with the Raspberry Pi
 ## Getting Started
 
