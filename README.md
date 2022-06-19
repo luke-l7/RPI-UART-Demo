@@ -16,7 +16,7 @@ In this tutorial I will be creating a demo for using the UART_ on the Raspberry 
 At this point, the terminal will ask if you want a login shell activated, in case you do, press yes.
 Another prompt will pop up asking if you want the Serial Port activated, to that you should select **yes**, and then **reboot**.
 
-### More about the RPI and it's UARTS
+## More about the RPI and it's UARTS
 
 On the 4B model, there are 6 UARTS
 
