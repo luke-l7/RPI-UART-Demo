@@ -16,5 +16,17 @@ In this tutorial I will be creating a demo for using the UART_ on the Raspberry 
 At this point, the terminal will ask if you want a login shell activated, in case you do, press yes.
 Another prompt will pop up asking if you want the Serial Port activated, to that you should select **yes**, and then **reboot**.
 
-* add a little about the mini UART_
-* add steps and explanation to activating the UART_ on the RPI 
+#### More about the RPI and it's UARTS
+
+On the 4B model, there are 6 UARTS
+
+| UART  | GPIO |
+| ------------- | ------------- |
+| 0  | 14/15  |
+| 1  | 14/15  |
+| 2  | 0/1  |
+| 3  | 4/5  |
+| 4  | 8/9  |
+| 5  | 12/13  |
+
+In this tutorial i will be using UART 4 on pins 8 and 9.
