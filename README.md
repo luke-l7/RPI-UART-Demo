@@ -13,8 +13,24 @@ In this tutorial I will be creating a demo for using the UART_ on the Raspberry 
 3. Use your arrow keys to navigate to *Advanced options*, and press enter.
 4. Navigate to the *Serial* option.
 
-At this point, the terminal will ask if you want a login shell activated, in case you do, press yes.
+At this point, the terminal will ask if you want a login shell activated, press ***no*** (otherwise the serial will be used to access the PI's terminal
+and not serial communication).
 Another prompt will pop up asking if you want the Serial Port activated, to that you should select **yes**, and then **reboot**.
+
+### Step two - Editing the *config.txt* file
+
+In the PI's terminal, access the */boot/config.txt* file for editing via the command *sudo nano /boot/config.txt*.
+
+Once there, scroll to the end of the file and add the following lines :
+
+*dtoverlay=uart4
+dtoverlay-disable-bt
+dtoverlay=miniuart-bt
+enable_uart=1*
+
+Now pay attention that the last command only enables the uart (1=yes), and not enables the first UART on the PI 
+the first command is the one that decides for which UART to be enabled (uart1,uart2,uart3,uart4...) 
+the rest of the commands make sure to enable the main UART on the PI (ttyAMA0), instead of the default limited miniUART
 
 ## More about the RPI and it's UARTS
 
