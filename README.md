@@ -14,7 +14,7 @@ In this tutorial I will be creating a demo for using the UART_ on the Raspberry 
 4. Navigate to the *Serial* option.
 
 At this point, the terminal will ask if you want a login shell activated, press ***no*** (otherwise the serial will be used to access the PI's terminal
-and not serial communication).
+and not serial communication). </br></br>
 Another prompt will pop up asking if you want the Serial Port activated, to that you should select **yes**, and then **reboot**.
 
 ### Step two - Editing the *config.txt* file
