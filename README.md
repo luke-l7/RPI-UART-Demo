@@ -2,7 +2,7 @@
 Communicating over the UART_ with the Raspberry Pi
 ## Getting Started
 
-In this tutorial I will be creating a demo for using the UART_ on the Raspberry pi 4 using the header pigpio, I'm going to be using the RPI 4B model, but any model should be fine as well. </br>
+In this tutorial I will be creating a demo for using the UART on the Raspberry pi 4 using the header pigpio, I'm going to be using the RPI 4B model, but any model should be fine as well. </br>
 
 [The pigpio package](https://abyz.me.uk/rpi/pigpio/) is a package used to control the GPIO pins on the PI, and more.
 
