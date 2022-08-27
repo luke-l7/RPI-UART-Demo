@@ -17,9 +17,9 @@ At this point, the terminal will ask if you want a login shell activated, press 
 and not serial communication). </br></br>
 Another prompt will pop up asking if you want the Serial Port activated, to that you should select **yes**, and then **reboot**.
 
-### Step two - Editing the **config.txt** file
+### Step two - Editing the *config.txt* file
 
-In the PI's terminal, access the */boot/config.txt* file for editing via the command *sudo nano /boot/config.txt*.
+In the PI's terminal, access the **_/boot/config.txt_** file for editing via the command *sudo nano /boot/config.txt*.
 
 Once there, scroll to the end of the file and add the following lines :
 
@@ -28,9 +28,9 @@ dtoverlay-disable-bt</br>
 dtoverlay=miniuart-bt</br>
 enable_uart=1*
 
-Now pay attention that the last command only enables the uart (1=yes), and not enables the first UART on the PI 
-the first command is the one that decides for which UART to be enabled (uart1,uart2,uart3,uart4...) 
-the rest of the commands make sure to enable the main UART on the PI (ttyAMA0), instead of the default limited miniUART
+Now pay attention that the last command only enables the uart (1=yes), and not enables the first UART on the PI </br>
+the first command is the one that decides for which UART to be enabled (uart1,uart2,uart3,uart4...) </br>
+the rest of the commands make sure to enable the main UART on the PI (ttyAMA0), instead of the default limited miniUART.
 
 ## More about the RPI and it's UARTS
 
