@@ -28,9 +28,9 @@ dtoverlay-disable-bt</br>
 dtoverlay=miniuart-bt</br>
 enable_uart=1*
 
-Now pay attention that the last command only enables the uart (1=yes), and not enables the first UART on the PI </br>
-the first command is the one that decides for which UART to be enabled (uart1,uart2,uart3,uart4...) </br>
-the rest of the commands make sure to enable the main UART on the PI (ttyAMA0), instead of the default limited miniUART.
+Now pay attention that the last command only enables the uart (1=yes), and not enables the first UART on the PI. </br>
+The first command is the one that decides for which UART to be enabled (uart1,uart2,uart3,uart4...). </br>
+The rest of the commands make sure to enable the main UART on the PI (ttyAMA0), instead of the default limited miniUART.
 
 ## More about the RPI and it's UARTS
 
