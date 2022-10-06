@@ -17,9 +17,9 @@ At this point, the terminal will ask if you want a login shell activated, press 
 and not serial communication). </br></br>
 Another prompt will pop up asking if you want the Serial Port activated, to that you should select **yes**, and then **reboot**.
 
-### Step two - Editing the *config.txt* file
+### Step two - Editing the ``` config.txt ``` file
 
-In the PI's terminal, access the ``` /boot/config.txt ``` file for editing via the command *sudo nano /boot/config.txt*.
+In the PI's terminal, access the ``` /boot/config.txt ``` file for editing via the command ``` sudo nano /boot/config.txt ```.
 
 Once there, scroll to the end of the file and add the following lines :
 
