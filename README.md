@@ -45,4 +45,5 @@ On the 4B model, there are 6 UARTS
 | 4  | 8/9  |
 | 5  | 12/13  |
 
-In this tutorial I will be using UART 4 on pins 8 and 9.
+In this tutorial I will be using UART 4 on pins 8 and 9, for more information about the PI4B's uarts,
+their usages and required commands you can check out the overlays *README* file using the command *cat /boot/overlays/README*.
