@@ -19,7 +19,7 @@ Another prompt will pop up asking if you want the Serial Port activated, to that
 
 ### Step two - Editing the *config.txt* file
 
-In the PI's terminal, access the **_/boot/config.txt_** file for editing via the command *sudo nano /boot/config.txt*.
+In the PI's terminal, access the ``` /boot/config.txt ``` file for editing via the command *sudo nano /boot/config.txt*.
 
 Once there, scroll to the end of the file and add the following lines :
 
